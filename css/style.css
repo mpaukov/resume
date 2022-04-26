@@ -1,0 +1,183 @@
+:root {
+  --current-white-color: #ffffff;
+  --current-dark-color: #000000;
+  --background-color: #1e2939;
+
+  font-style: normal;
+  font-size: 22px;
+  line-height: 1.25;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f5f7fa;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  background-color: var(--current-white-color);
+  margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contentSection {
+  padding: 40px 90px;
+  flex-grow: 2;
+}
+
+.profession {
+  margin-bottom: 20px;
+  font-size: inherit;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.contentTitle {
+  font-weight: bold;
+  color: var(--current-dark-color);
+  margin-bottom: 10px;
+}
+
+.contentItems {
+  margin-left: 10px;
+}
+
+.contentItems:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.contentItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.contentLink {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: var(--current-dark-color);
+  font-size: 16px;
+}
+
+.linkText {
+  display: block;
+}
+
+.linkSpan {
+  display: block;
+}
+
+.linkSpan::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 100%;
+  left: 0;
+
+  border-bottom: 1px dotted var(--background-color);
+}
+
+.sidebar {
+  background-color: var(--background-color);
+  flex-grow: 1;
+  padding: 40px 15px;
+}
+
+.imgWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 370px;
+}
+
+.contactWrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sidebarTitle {
+  font-weight: bold;
+  color: var(--current-white-color);
+  margin-bottom: 10px;
+}
+
+.sidebarItems {
+  margin-left: 10px;
+}
+
+.sidebarItems:not(:last-of-type) {
+  margin-bottom: 30px;
+}
+
+.sidebarItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.sidebarLink {
+  display: flex;
+  align-items: center;
+  color: var(--current-white-color);
+  font-size: 16px;
+}
+
+.sidebarText {
+  display: block;
+  color: var(--current-white-color);
+  font-size: 16px;
+}
+
+.sidebarIcon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
