@@ -122,6 +122,22 @@ img {
   border-bottom: 1px dotted var(--background-color);
 }
 
+.duration {
+  font-size: 16px;
+  color: var(--background-color);
+  margin-bottom: 5px;
+}
+
+.place {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.role {
+  font-size: 16px;
+  font-style: italic;
+}
+
 .sidebar {
   background-color: var(--background-color);
   flex-grow: 1;
