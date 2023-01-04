@@ -70,22 +70,22 @@ img {
 }
 
 .contentSection {
-  padding: 40px 80px;
+  padding: 24px 32px;
   flex-grow: 2;
 }
 
 .profession {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   text-align: center;
 }
 
 .title {
   font-size: 36px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .text {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   text-align: justify;
 }
 
@@ -109,7 +109,7 @@ img {
 }
 
 .contentItems:not(:last-of-type) {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
 }
 
 .wrapperLink {
@@ -118,7 +118,7 @@ img {
 }
 
 .contentItem:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .contentLink {
@@ -143,6 +143,7 @@ img {
 
 .place {
   margin-bottom: 5px;
+  text-align: justify;
 }
 
 .role {
