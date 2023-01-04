@@ -1,6 +1,7 @@
 :root {
   --current-white-color: #ffffff;
   --current-dark-color: #000000;
+  --current-link-color: #0000cc;
   --background-color: #1e2939;
 
   font-style: normal;
@@ -92,7 +93,7 @@ img {
 
 .textLink {
   font-size: inherit;
-  color: var(--current-dark-color);
+  color: var(--current-link-color);
 }
 
 .itemText {
@@ -123,7 +124,7 @@ img {
 }
 
 .contentLink {
-  color: var(--current-dark-color);
+  color: var(--current-link-color);
 }
 
 .linkText {
